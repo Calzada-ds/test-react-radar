@@ -1,6 +1,6 @@
 Prueba Tecnica FrontEnd - React
 
-Desarrollado por: Daniel Sebastian Calzada Guerrero 
+Desarrollado por: Daniel Sebastian Calzada Guerrero <br>
 Contacto: calzada.dsg@gmail.com
 Telefono: + 52 55 4863 8608
 LinkedIn: [(https://www.linkedin.com/in/danielscalzadag/]*
