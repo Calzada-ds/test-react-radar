@@ -49,5 +49,3 @@ src/
 ├── hooks/        # Lógica separada de la UI (useProducts, useCart)
 ├── pages/        # Vistas principales (Home, ProductDetail)
 └── index.css     # Sistema de diseño centralizado (Variables, Reset, Layouts)
-
-
