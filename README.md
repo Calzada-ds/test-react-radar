@@ -1,9 +1,9 @@
 Prueba Tecnica FrontEnd - React
 
-Desarrollado por: Daniel Sebastian Calzada Guerrero <br>
-Contacto: calzada.dsg@gmail.com
-Telefono: + 52 55 4863 8608
-LinkedIn: [(https://www.linkedin.com/in/danielscalzadag/]*
+Desarrollado por: Daniel Sebastian Calzada Guerrero
+<br>Contacto: calzada.dsg@gmail.com
+<br>Telefono: + 52 55 4863 8608
+<br>LinkedIn: [(https://www.linkedin.com/in/danielscalzadag/]*
 
 Solución a la prueba técnica para la vacante Desarrollador Front End/Diseñador UX/UI. Esta aplicación es un E-commerce SPA desarrollado con **React.js** que consume la FakeStore API, enfocándose en la arquitectura limpia, UX moderna y buenas prácticas de desarrollo.
 
