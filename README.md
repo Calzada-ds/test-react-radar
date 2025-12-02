@@ -36,6 +36,9 @@ Cumpliendo con los requisitos solicitados:
 * Feedback: Notificaciones "Toast" emergentes al agregar productos.
 * UI: Diseño de resumen de pedido "Sticky" (fijo al hacer scroll) y estados vacíos ilustrados.
 
+FakeStore API : https://fakestoreapi.com/
+Documentación de la API: https://fakestoreapi.com/doc
+
 ## Arquitectura del Proyecto
 El código sigue una estructura modular para asegurar la escalabilidad y mantenibilidad:
 
@@ -47,5 +50,4 @@ src/
 ├── pages/        # Vistas principales (Home, ProductDetail)
 └── index.css     # Sistema de diseño centralizado (Variables, Reset, Layouts)
 
-FakeStore API : https://fakestoreapi.com/
-Documentación de la API: https://fakestoreapi.com/doc
+
