@@ -37,7 +37,7 @@ Cumpliendo con los requisitos solicitados:
 * UI: Diseño de resumen de pedido "Sticky" (fijo al hacer scroll) y estados vacíos ilustrados.
 
 FakeStore API : https://fakestoreapi.com/
-Documentación de la API: https://fakestoreapi.com/doc
+<br>Documentación de la API: https://fakestoreapi.com/doc
 
 ## Arquitectura del Proyecto
 El código sigue una estructura modular para asegurar la escalabilidad y mantenibilidad:
