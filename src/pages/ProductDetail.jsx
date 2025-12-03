@@ -33,7 +33,21 @@ export const ProductDetail = () => {
         </div>
 
         <div className="detail-info">
+       <span className="card-category">{product.category}</span>
+          
           <h1 className="detail-title">{product.title}</h1>
+
+          {product.rating && (
+            <div className="rating-info">
+                <span className="rating-stars">
+                    {'★'.repeat(Math.round(product.rating.rate))}
+                </span>
+                <span>
+                    {product.rating.rate} ({product.rating.count} reseñas)
+                </span>
+            </div>
+          )}
+       
           <p className="detail-desc">{product.description}</p>
 
           <div className="detail-price-row">

@@ -506,6 +506,29 @@ ul {
   font-size: 1rem;
 }
 
+.card-category {
+    text-transform: capitalize; 
+    font-weight: 600; 
+}
+
+.rating-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.rating-stars {
+    color: #FFD700; 
+    font-size: 1.2rem;
+    line-height: 1; 
+}
+
+.rating-text {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary); 
+    margin-left: 5px;
+}
+
 .detail-price-row {
   margin-bottom: 1rem;
   display: flex;
