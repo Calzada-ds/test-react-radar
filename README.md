@@ -5,7 +5,7 @@
 | :--- | :--- |
 | **Nombre** | Daniel Sebastian Calzada Guerrero |
 | **LinkedIn** | https://www.linkedin.com/in/danielscalzadag/ |
-| **Email** | calzada.dsg@gmail.com |
+| **Email** | calzadadaniel15@gmail.com |
 | **Teléfono** | + 52 55 4863 8608 |
 
 ---
@@ -25,8 +25,6 @@ Solución a la prueba técnica para la vacante Desarrollador Front End/Diseñado
 ---
 
 ## Buenas Prácticas y Calidad de Código
-
-Esta sección demuestra un entendimiento completo de la arquitectura de componentes de React:
 
 * **Separación de Intereses (SoC):** La lógica de datos (`fetch`, estados de carga/error) reside en hooks personalizados (`/hooks`), manteniendo los componentes de la interfaz de usuario puramente declarativos.
 * **Gestión Asíncrona Avanzada:** Implementación de **`AbortController`** en los hooks de Fetch (`useProductById`, `useProducts`) para prevenir *Race Conditions* (condiciones de carrera) y fugas de memoria al navegar entre vistas.
@@ -48,7 +46,7 @@ Esta sección demuestra un entendimiento completo de la arquitectura de componen
 * **Filtros:** Componente `CategoryFilter` funcional con feedback visual activo.
 * **Manejo de Estados:** Spinners de carga y mensajes de error.
 * **Errores:** Mostrando un mensaje al usuario
-* **Diseño:** Hero Section con fondo de gradiente minimalista, centrado y responsivo.
+* **Diseño:** Hero Section con imagen de fondo, centrado y responsivo.
 
 ### 2. Detalle de Producto
 
