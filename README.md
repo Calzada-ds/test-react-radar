@@ -4,7 +4,7 @@
 | Contacto | Información |
 | :--- | :--- |
 | **Nombre** | Daniel Sebastian Calzada Guerrero |
-| **LinkedIn** | [https://www.linkedin.com/in/danielscalzadag/]|
+| **LinkedIn** | https://www.linkedin.com/in/danielscalzadag/ |
 | **Email** | calzada.dsg@gmail.com |
 | **Teléfono** | + 52 55 4863 8608 |
 
@@ -40,16 +40,23 @@ Esta sección demuestra un entendimiento completo de la arquitectura de componen
 ### 1. Listado de Productos (Home)
 
 * **Listado de Productos:** Productos consumidos desde la API.
+* **Componente ProductCard:** 
+  * Imagen del producto
+  * Título 
+  * Precio
+  * Añadir al Carrito
 * **Filtros:** Componente `CategoryFilter` funcional con feedback visual activo.
 * **Manejo de Estados:** Spinners de carga y mensajes de error.
+* **Errores:** MOstrando un mensaje al usuario
 * **Diseño:** Hero Section con fondo de gradiente minimalista, centrado y responsivo.
 
 ### 2. Detalle de Producto
 
 * **Ruta Dinámica:** Página de detalle (`/product/:id`).
-* **Información:** Muestra el Título, Precio, Imagen, Descripción completa.
+* **Información:** 
+  * Imagen
+  * Descripción completa
 * **Acción:** Botón "Añadir al carrito" funcional.
-* **Validación:** Manejo de ID inválido o Error 404.
 
 ### 3. Carrito de Compras
 
