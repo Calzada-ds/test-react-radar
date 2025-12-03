@@ -1,3 +1,4 @@
+
 export const CategoryFilter = ({ setFilter, activeFilter }) => {
   const categories = ["all", "electronics", "jewelery", "men's clothing", "women's clothing"];
 
@@ -7,8 +8,7 @@ export const CategoryFilter = ({ setFilter, activeFilter }) => {
         <button
           key={cat}
           onClick={() => setFilter(cat)}
-          className={`category-btn ${activeFilter === cat ? 'active' : ''}`}
-          style={{ textTransform: 'capitalize' }} 
+          className={`category-btn ${activeFilter === cat ? 'active' : ''}`} 
         >
           {cat}
         </button>
