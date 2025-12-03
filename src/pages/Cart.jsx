@@ -66,7 +66,6 @@ export const Cart = () => {
                 
                 <div className="cart-item-info">
                   <h4 className="cart-item-title">{item.title}</h4>
-                  <p className="cart-item-category">{item.category}</p>
                   
                   <div className="cart-item-actions">
                     <span className="cart-item-price">${item.price}</span>

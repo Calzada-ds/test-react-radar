@@ -18,13 +18,20 @@ Cumpliendo con los requisitos solicitados:
 
 ### 1.  Listado de productos (Home) 
 * Listado dinámico de productos consumidos desde `fakestoreapi.com`.
+  * Imagen del producto
+  * Título 
+  * Precio
+  * Añadir al Carrito
 * Filtros por Categoría: Interfaz de "píldoras" con feedback visual activo.
 * UX: Spinners de carga personalizados y manejo de errores.
-
+ 
 ### 2. Detalle de Producto 
 * Navegación dinámica (`/product/:id`).
 * Validación de seguridad: Manejo de IDs inexistentes (Error 404 visual).
 * Vista detallada con imagen responsiva, descripción y acciones de compra.
+ * Imagen 
+ * Descripción completa
+ * Botón "Añadir al carrito”
 
 ### 3. Carrito de Compras 
 * Persistencia:El estado del carrito se mantiene al navegar entre vistas.

@@ -3,7 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { ProductDetail } from './pages/ProductDetail';
 import { Cart } from './pages/Cart';
-import { CartProvider } from './context/CartContext';
+import { CartProvider } from './context/CartProvider'; 
 import { Toast } from './components/Toast';
 
 function App() {

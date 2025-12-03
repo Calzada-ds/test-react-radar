@@ -11,10 +11,6 @@ export const ProductCard = ({ product }) => {
           <img className="card-image" src={product.image} alt={product.title} />
         </div>
         
-        <span className="card-category" style={{ textTransform: 'capitalize' }}>
-          {product.category}
-        </span>
-        
         <h3 className="card-title" title={product.title}>
           {product.title}
         </h3>

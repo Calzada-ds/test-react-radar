@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const CategoryFilter = ({ setFilter, activeFilter }) => {
   const categories = ["all", "electronics", "jewelery", "men's clothing", "women's clothing"];
 

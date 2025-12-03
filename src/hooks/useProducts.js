@@ -6,19 +6,20 @@ export const useProducts = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://fakestoreapi.com/products')
-      .then(res => {
+    const fetchProducts = async () => {
+      try {
+        const res = await fetch('https://fakestoreapi.com/products');
         if (!res.ok) throw new Error('Error al cargar productos');
-        return res.json();
-      })
-      .then(data => {
+        const data = await res.json();
         setProducts(data);
-        setLoading(false);
-      })
-      .catch(err => {
+      } catch (err) {
         setError(err.message);
+      } finally {
         setLoading(false);
-      });
+      }
+    };
+
+    fetchProducts();
   }, []);
 
   return { products, loading, error };
